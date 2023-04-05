@@ -12,7 +12,7 @@ r = redis.Redis(
 status = r.set('bike:1', 'Process 134')
 
 if status == True:
-  print(Successfully added a bike.)
+  print('Successfully added a bike.')
 
 value = r.get('bike:1')
 
