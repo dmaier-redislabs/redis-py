@@ -17,4 +17,4 @@ if status == True:
 value = r.get('bike:1')
 
 if value:
-  print('The name of the bike is: ' + value + '.')
+  print('The name of the bike is: {}.'.format(value))
