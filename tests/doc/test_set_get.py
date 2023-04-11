@@ -19,7 +19,8 @@ def run():
     
   if status == True:
     print('Successfully added a bike.')
-    value = r.get('bike:1')
+  
+  value = r.get('bike:1')
   
   if value:
     print('The name of the bike is: {}.'.format(value))
