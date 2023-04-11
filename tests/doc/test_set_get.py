@@ -29,6 +29,6 @@ def run():
   assert 'Process 134' == value
 
 @pytest.mark.doc
-def test_run():
+def test_set_and_get():
   run()
 # REMOVE_END
